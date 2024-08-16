@@ -128,7 +128,7 @@ th {
     line-height: 150%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     body {
         padding: 128px 48px;
         background-color: hsl(30, 54%, 90%);
@@ -150,5 +150,12 @@ th {
 
     .title {
         margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .main-card {
+        max-width: 736px;
+        margin: 0 auto;
     }
 }
